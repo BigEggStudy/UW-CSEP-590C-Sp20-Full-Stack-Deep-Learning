@@ -55,7 +55,7 @@ Regardless, you want to add this data to your company's proprietary dataset.
 
 Select the best option for doing this:
 
-Distribute the new photos into training/validation/testing sets following the same distribution as you selected in the previous question
-Add the new photos to the training set only
-Add the new photos to the validation set only
-Add the new photos to the test set only
+* [] Distribute the new photos into training/validation/testing sets following the same distribution as you selected in the previous question
+* [] Add the new photos to the training set only
+* [] Add the new photos to the validation set only
+* [] Add the new photos to the test set only
