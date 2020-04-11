@@ -5,11 +5,23 @@
 ### Q1.1
 When a trained model is said to be “high bias”, is it underfit or overfit on the training set?
 
-* [] underfit
+* [x] underfit
 * [] overfit
 
 ### Q1.2
 Explain the concept of bias-variance tradeoff. Does it apply to deep neural networks (explain why or why not)?
+
+> If the model is too simple and has very few parameters then it will be high bias and low variance. On the contract, if the model has so many parameters, it will be high variance and low bias. So we need to make sure our model should not too simple or too complicate.
+>
+> I think the bias-variance tradeoff should also applied to deep neural networks. Although in modern practice, very rich models such as neural networks are trained to exactly fit (i.e., interpolate) the data. And this often obtain high accuracy on test data even they should be considered as overfit.
+>
+> We can have a simple example to illustrate this: if our model have almost unlimited nodes it can accurately remember all the training data, and that will give us overfitting which will still have a high variance.
+>
+> And the reason why people find there have a gap between mathematical foundations of machine learning and the Deep Learning practice, I think, is because: it might not as easy as normal regression problems that can use a simple formula to compute them in Deep Learning. 
+>
+> * In this article: [A Modern Take on the Bias-Variance Tradeoff in Neural Networks](https://arxiv.org/abs/1810.08591), it introduce a new decomposition of the variance to disentangle the effects of optimization and data sampling.
+>
+> * And in this article: [Reconciling modern machine-learning practice and the classical bias–variance trade-off](https://www.pnas.org/content/116/32/15849), they use a “double-descent” curve to show how increasing model capacity beyond the point of interpolation results in improved performance.
 
 ## Q2 Software 2.0
 In your own words, explain how "Software 2.0" (Andrej Karpathy's term we mentioned in lecture), or training ML models, is different from Software 1.0, or traditional software engineering.
