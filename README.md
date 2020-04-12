@@ -8,4 +8,7 @@ Assignments and Labs for UW CSE P 590C Introduction to Full Stack Deep Learning
 
 ## Labs
 
-* [Lab 0 - Deep Learning Fundamentals](./Labs/Lab0-DeepLearningFundamentals.ipynb)
+* Lab 0 - Deep Learning Fundamentals
+    * [Part 1](./Labs/Lab0-DeepLearningFundamentals(Part1).ipynb)
+    * [Part 2](./Labs/Lab0-DeepLearningFundamentals(Part2).ipynb)
+* [Lab 1 - Single-character prediction](./Labs/fsdl-text-recognizer-project/lab1)
