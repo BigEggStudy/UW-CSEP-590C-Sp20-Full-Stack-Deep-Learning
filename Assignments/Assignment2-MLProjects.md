@@ -63,7 +63,7 @@ What are reasonable choices for splitting this data into training/validation/tes
 * [ ] 20% to training, 20% to validation, 60% to test
 * [x] 50% to training, 25% to validation, 25% to test
 * [ ] 50% to training, 49% to validation, 1% to test
-* [x] 80% to training, 10% to validation, 10% to test
+* [ ] 80% to training, 10% to validation, 10% to test
 * [ ] 98% to training, 1% to validation, 1% to test
 
 ### Q3.3 Dataset Split part 2
