@@ -3,17 +3,29 @@
 ## Q1 RNNs vs LSTMs
 What is the main problem present in RNNs that LSTMs are meant to be address?
 
+> LSTM can deal with [Vanishing Gradient Problem](https://en.wikipedia.org/wiki/Vanishing_gradient_problem). Like the ResNet for CNNs.
+
 ## Q2 Sequence Problems
 Give one example of each of the following types of sequence problems:
 
 ### One-to-many:
 
+> Music generation is a one-to-many problem, that the input will be a empty set and output the song.
+
 ### Many-to-one:
+
+> A many-to-one problem can be high-frequency financial volatility forecasting, that the input should be a stream of quotes and trades over last few minutes and output the prediction (up or down).
 
 ### Many-to-many:
 
+> The translation will be a many-to-many problem because the word in one language doesn't mean it still one word in another language.
+
 ## Q3 Bidirectionality
 In a deep learning model developed for the machine translation task, what would be the purpose of making LSTMs bidirectional?
+
+> For normal unidirectional LSTM, it can only learn from the information of the past because the only inputs it has seen are from the past. With bidirectional, it can run the inputs from past to future and from future to past. Then after bind the 2 hidden states, the model can preserve information from both past and future at any point in time.
+>
+> With bidirectional, the model can understand context better. So can be easier for the network to predict what the next word in a sentence, and this help the machine translation task a lot during the encode and decode.
 
 ## Q4 Explore in a notebook
 A sentiment classification example is given in this colab notebook

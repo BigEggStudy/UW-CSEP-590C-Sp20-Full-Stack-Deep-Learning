@@ -29,7 +29,7 @@ A “residual block” is the foundational unit of the ResNet convolutional arch
 >
 > 1. When choose ReLU as the activation function, there have one drawback that: because the outputs of this function are zero for input values that are below zero, the neurons of the network can be very fragile during training and can even “die”. Which means during the weight updates the weights are adjusted in such a way that for certain neurons the inputs are always below zero. And those neurons are always zero and do not contribute to the training process.
 >
-> 2. When we have a deep networks, the gradient tends to vanish. This is because the weights are small numbers, and each time the input goes through a layer, it will get small via multiply the weights. And this can let the signal become very small numbers in the later layers. Also this will cause the gradient become even smaller, even doesn't have any affect in the weights update, which known as Vanishing Gradient Problem.
+> 2. When we have a deep networks, the gradient tends to vanish. This is because the weights are small numbers, and each time the input goes through a layer, it will get small via multiply the weights. And this can let the signal become very small numbers in the later layers. Also this will cause the gradient become even smaller, even doesn't have any affect in the weights update, which known as [Vanishing Gradient Problem](https://en.wikipedia.org/wiki/Vanishing_gradient_problem).
 >
 > With the residual block, the later layers can always get the input before and get more information to learn.
 
