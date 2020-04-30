@@ -28,7 +28,7 @@ In a deep learning model developed for the machine translation task, what would 
 > With bidirectional, the model can understand context better. So can be easier for the network to predict what the next word in a sentence, and this help the machine translation task a lot during the encode and decode.
 
 ## Q4 Explore in a notebook
-A sentiment classification example is given in [this colab notebook](https://colab.research.google.com/drive/1S4ROAijob6bjrnAZi9eU36eZo9WEON0C?forceEdit=true&sandboxMode=true)
+A sentiment classification example is given in [this colab notebook](.\Resources\many_to_one_rnn_example.ipynb)
 
 Make sure you understand what's going on, and try at least one of the things suggested in the last cell.
 
