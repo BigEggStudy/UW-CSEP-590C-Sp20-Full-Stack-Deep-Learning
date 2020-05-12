@@ -44,7 +44,7 @@ List a couple of potential pro's and a couple of potential con's for owning your
 > * When handle the BCDR scenario, most of the cloud provider have a easier way to do the failover and fallback.
 >
 > Owning hardware have the following pros:
-> * Higher security, because the data and models are never leave that machines.
+> * Higher security of data and model, because they never leave that machines.
 > * You can build what ever machine you like that the cloud provider might not have corresponding SKUs.
 > * The price will be cheaper for building you own machine.
 > * You can maintain the version and anything in your machine.
