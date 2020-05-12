@@ -73,3 +73,7 @@ What are some approaches to running training on a cluster of GPU machines? What 
 
 ## Q4 Your experience
 What is your experience, if any, with tooling and/or infrastructure for machine learning?
+
+> Our team use a machine learning model to summaries the description to generate title. That model was trained and coded by another team (applied science team). For our team, because we provided the data, we can still push updates to the model package that update the featurization. I don't know why, but that team seem like don't like use TensorFlow or PyTorch, but write the neural network by their own use C++. And it's quite slow...
+>
+> After a re-org, we have the ownership for that model and package, so our team start a work that use a Docker hosted image that contains TensorFlow and BERT instead of the custom model and C++. The performance of the new model increased, the accuracy is higher, model is smaller and faster, and now we even start support multi-lingual.... (I think I know why that team got re-org...)
