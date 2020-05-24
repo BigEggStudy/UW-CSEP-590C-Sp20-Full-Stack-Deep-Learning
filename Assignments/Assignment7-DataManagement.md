@@ -8,7 +8,7 @@ Assume that you are running a photo-sharing website. For each of the below quest
 Image uploaded to the website by a user.
 
 * [ ] Local Filesystem
-* [ ] Object Storage (e.g. Amazon S3)
+* [x] Object Storage (e.g. Amazon S3)
 * [ ] Database (e.g. Postgres)
 * [ ] Data Warehouse/Lake (e.g. Amazon Redshift)
 
@@ -18,7 +18,7 @@ User name, email, last login date.
 
 * [ ] Local Filesystem
 * [ ] Object Storage (e.g. Amazon S3)
-* [ ] Database (e.g. Postgres)
+* [x] Database (e.g. Postgres)
 * [ ] Data Warehouse/Lake (e.g. Amazon Redshift)
 
 ### Q1.3
@@ -28,13 +28,13 @@ Log of every photo seen by the user on the site.
 * [ ] Local Filesystem
 * [ ] Object Storage (e.g. Amazon S3)
 * [ ] Database (e.g. Postgres)
-* [ ] Data Warehouse/Lake (e.g. Amazon Redshift)
+* [x] Data Warehouse/Lake (e.g. Amazon Redshift)
 
 ### Q1.4
 
 1M photos tagged with "sunset" for feeding training batches for a scene classification network.
 
-* [ ] Local Filesystem
+* [x] Local Filesystem
 * [ ] Object Storage (e.g. Amazon S3)
 * [ ] Database (e.g. Postgres)
 * [ ] Data Warehouse/Lake (e.g. Amazon Redshift)
