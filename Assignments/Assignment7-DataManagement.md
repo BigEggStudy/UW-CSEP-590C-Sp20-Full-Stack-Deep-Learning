@@ -44,5 +44,17 @@ Log of every photo seen by the user on the site.
 ### Q2.1 Vision
 Describe a couple of data augmentation techniques for image data.
 
+> * Flip
+> * Rotation
+> * Scale
+> * Crop
+> * Translation
+> * Gaussian Noise
+
 ### Q2.2 Speech
 Describe a couple of data augmentation techniques for speech data (sound files).
+
+> * Cropping out a portion
+> * Changing speed
+> * Injecting noise
+> * Masking frequency
