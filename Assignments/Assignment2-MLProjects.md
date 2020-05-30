@@ -17,7 +17,7 @@ Explain the concept of bias-variance tradeoff. Does it apply to deep neural netw
 >
 > We can have a simple example to illustrate this: if our model have almost unlimited nodes it can accurately remember all the training data, and that will give us overfitting which will still have a high variance.
 >
-> And the reason why people find there have a gap between mathematical foundations of machine learning and the Deep Learning practice, I think, is because: it might not as easy as normal regression problems that can use a simple formula to compute them in Deep Learning. 
+> And the reason why people find there have a gap between mathematical foundations of machine learning and the Deep Learning practice, I think, is because: it might not as easy as normal regression problems that can use a simple formula to compute them in Deep Learning.
 >
 > * In this article: [A Modern Take on the Bias-Variance Tradeoff in Neural Networks](https://arxiv.org/abs/1810.08591), it introduce a new decomposition of the variance to disentangle the effects of optimization and data sampling.
 >
@@ -27,7 +27,7 @@ Explain the concept of bias-variance tradeoff. Does it apply to deep neural netw
 In your own words, explain how "Software 2.0" (Andrej Karpathy's term we mentioned in lecture), or training ML models, is different from Software 1.0, or traditional software engineering.
 
 > I think the different mainly happened on how we handle a problem.
-> 
+>
 > For Software 1.0, it's we will try to understand what is the problem and how the outcome is happened. Then we need to understand how the inputs and outcomes are connected. Then we work and transfer the understanding to the code via the programmer.
 >
 > But there had many complicate problems that is hard to let people understand, or people can understand but it's very hard to find out the way to program it.
@@ -61,10 +61,10 @@ What are reasonable choices for splitting this data into training/validation/tes
 
 * [ ] 20% to training, 40% to validation, 40% to test
 * [ ] 20% to training, 20% to validation, 60% to test
-* [x] 50% to training, 25% to validation, 25% to test
+* [ ] 50% to training, 25% to validation, 25% to test
 * [ ] 50% to training, 49% to validation, 1% to test
-* [ ] 80% to training, 10% to validation, 10% to test
-* [ ] 98% to training, 1% to validation, 1% to test
+* [x] 80% to training, 10% to validation, 10% to test
+* [x] 98% to training, 1% to validation, 1% to test
 
 ### Q3.3 Dataset Split part 2
 What are reasonable choices for assigning examples that are labeled as offensive (“positive”) to training/validation/testing?
@@ -83,7 +83,7 @@ Regardless, you want to add this data to your company's proprietary dataset.
 
 Select the best option for doing this:
 
-* [x] Distribute the new photos into training/validation/testing sets following the same distribution as you selected in the previous question
-* [ ] Add the new photos to the training set only
+* [ ] Distribute the new photos into training/validation/testing sets following the same distribution as you selected in the previous question
+* [x] Add the new photos to the training set only
 * [ ] Add the new photos to the validation set only
 * [ ] Add the new photos to the test set only
