@@ -24,3 +24,12 @@ List a couple of potential pro's and a couple of potential con's for deploying v
 ## Q2 Deployed System Monitoring
 List as many things as you can think of that should be monitored in a prediction system running as a REST API.
 
+> * Downtime (Connectivity)
+> * Error Rates
+>   * Failed Request
+>   * Web Server Error
+> * High CPU
+> * High Memory
+> * Traces that contains sensitive data
+> * Healthy API to check data
+> * Distribution Shift
