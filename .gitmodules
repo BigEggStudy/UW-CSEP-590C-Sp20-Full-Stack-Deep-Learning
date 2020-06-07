@@ -1,0 +1,3 @@
+[submodule "Labs/fsdl-text-recognizer-project"]
+	path = Labs/fsdl-text-recognizer-project
+	url = https://github.com/full-stack-deep-learning/fsdl-text-recognizer-project.git
