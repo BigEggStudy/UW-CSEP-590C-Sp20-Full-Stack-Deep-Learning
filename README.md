@@ -18,4 +18,11 @@ Assignments and Labs for UW CSE P 590C Introduction to Full Stack Deep Learning
 * Lab 0 - Deep Learning Fundamentals
     * [Part 1](./Labs/Lab0-DeepLearningFundamentals(Part1).ipynb)
     * [Part 2](./Labs/Lab0-DeepLearningFundamentals(Part2).ipynb)
-* [Lab 1 - Single-character prediction](./Labs/fsdl-text-recognizer-project/lab1)
+* [Lab 1: Single-character prediction](https://github.com/full-stack-deep-learning/fsdl-text-recognizer-project/tree/master/lab1)
+* [Lab 2: Convolutional Nets](https://github.com/full-stack-deep-learning/fsdl-text-recognizer-project/tree/master/lab2)
+* [Lab 3: Using a sequence model for line text recognition](https://github.com/full-stack-deep-learning/fsdl-text-recognizer-project/tree/master/lab3)
+* [Lab 4: Real Handwriting Dataset and Experiment Management](https://github.com/full-stack-deep-learning/fsdl-text-recognizer-project/tree/master/lab4)
+* [Lab 5: Line Detection](https://github.com/full-stack-deep-learning/fsdl-text-recognizer-project/tree/master/lab5)
+* [Lab 6: Data Labeling and Versioning](https://github.com/full-stack-deep-learning/fsdl-text-recognizer-project/tree/master/lab6)
+* [Lab 7: Testing and Continuous Integration](https://github.com/full-stack-deep-learning/fsdl-text-recognizer-project/tree/master/lab7)
+* [Lab 8: Web Deployment](https://github.com/full-stack-deep-learning/fsdl-text-recognizer-project/tree/master/lab8)
